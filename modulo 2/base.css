@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,a,h1,h2,h3,h4,h5{
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+.wrapper{
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.menu-nav{
+    background-color: #eee;
+    padding: 2rem;
+    width: 20%;
+    height: auto;
+}
+
+.menu-nav ul li{
+    padding: 0.5rem 0.5rem;
+    border-bottom: #333 solid 1px;
+}
+
+.menu-nav ul li:hover{
+    background: linear-gradient(180deg, rgba(2,0,36,0) 60%, rgba(190,190,190,1) 100%);
+}
+
+.menu-nav a{
+    color: #333;
+    
+}
+
+.content{
+    max-width: 80%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.basic-header{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 5rem 1rem 0rem;
+    align-items: center;
+    height: 10%;
+    border-bottom: 1px solid #333;
+}
+
+.home{
+    display: flex;
+}
+
+.home img{
+    width: 30%;
+    height: auto;
+}
+
+.basic-header h1{
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.basic-header img{
+    width: 150px;
+    height: auto;
+}
+
+.content main{
+    padding: 2rem;
+}
+
+.content footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddd;
+    padding: 1rem;
+}
+
+.content footer a{
+    color: #333;
+    font-weight: 400;
+}
+
+.contact section:nth-child(1) > div{
+    display: flex;
+    width: 100%;
+}
+
+.contact section:nth-child(1) > div article:nth-child(1){
+    width: 30%;
+}
+
+.g-mapa{
+    width: 70%;
+}
+
+.g-mapa iframe{
+    width: 100%;
+}
+
+.s-form{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.s-form form{
+    width: 50%;
+}
+
+.s-form div{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+    
+}
+
+.s-form div input,textarea{
+    padding: 0.25rem;
+    border: #999 1px solid;
+    border-radius: 0.5rem;
+}
+
+.s-form button{
+    justify-self: center;
+}
+
+.services div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.services th,td{
+    border: 1px solid #333;
+    padding: 0.5rem;
+    text-align: center;
+}
